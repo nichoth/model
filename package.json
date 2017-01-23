@@ -1,12 +1,14 @@
 {
   "name": "model",
   "version": "0.0.0",
-  "description": "Reduce functions for modeling application state",
+  "description": "Functions for modeling application state",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags",
     "test": "eslint . && tape test/*.js | tap-spec"
   },
   "dependencies": {
