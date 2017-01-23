@@ -1,0 +1,39 @@
+{
+  "name": "model",
+  "version": "0.0.0",
+  "description": "Reduce functions for modeling application state",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "eslint . && tape test/*.js | tap-spec"
+  },
+  "dependencies": {
+    "@f/find-index": "^1.0.0",
+    "deep-equal": "^1.0.1",
+    "event-manifest": "^0.1.0",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "eslint-config-invintus": "^5.0.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tvwit/model.git"
+  },
+  "keywords": [
+    "model",
+    "state",
+    "reduce",
+    "store"
+  ],
+  "bugs": {
+    "url": "https://github.com/tvwit/model/issues"
+  },
+  "homepage": "https://github.com/tvwit/model#readme",
+  "private": true
+}
